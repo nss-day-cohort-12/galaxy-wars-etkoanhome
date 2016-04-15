@@ -7,8 +7,8 @@
     <ProjectGuid>{8F7DA256-859F-4254-BF36-DE5327304541}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GalaxyWars</RootNamespace>
-    <AssemblyName>GalaxyWars</AssemblyName>
+    <RootNamespace>BlackHole</RootNamespace>
+    <AssemblyName>BlackHole</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlackHole.cs" />
+    <Compile Include="Interfaces\IAlien.cs" />
     <Compile Include="Planets\Endor.cs" />
     <Compile Include="Planets\Hoth.cs" />
     <Compile Include="Planets\Planet.cs" />

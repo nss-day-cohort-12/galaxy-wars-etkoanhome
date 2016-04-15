@@ -12,6 +12,16 @@ namespace BlackHole
     {
         static void Main(string[] args)
         {
-        }
+      Ewok ewok = new Ewok();
+      Console.WriteLine(ewok.goal);
+      Console.WriteLine(ewok.diet);
+      Console.WriteLine(ewok.fur);
+     
+
+      Wookiee wookiee = new Wookiee();
+      Console.WriteLine(wookiee.weapon);
+
+      Console.ReadLine();
+    }
     }
 }

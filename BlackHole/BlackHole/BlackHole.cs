@@ -15,8 +15,13 @@ namespace BlackHole
       Ewok ewok = new Ewok();
       Console.WriteLine(ewok.goal);
       Console.WriteLine(ewok.diet);
-      Console.ReadLine();
+      Console.WriteLine(ewok.fur);
+     
 
-        }
+      Wookiee wookiee = new Wookiee();
+      Console.WriteLine(wookiee.weapon);
+
+      Console.ReadLine();
+    }
     }
 }

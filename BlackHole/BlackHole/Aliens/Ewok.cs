@@ -18,7 +18,7 @@ namespace BlackHole.Aliens
     {
       get
       {
-        throw new NotImplementedException();
+        return 4;
       }
 
       set
@@ -31,7 +31,7 @@ namespace BlackHole.Aliens
     {
       get
       {
-        throw new NotImplementedException();
+        return false;
       }
 
       set
@@ -49,7 +49,7 @@ namespace BlackHole.Aliens
 
       set
       {
-       
+        throw new NotImplementedException();
       }
     }
 
@@ -57,7 +57,7 @@ namespace BlackHole.Aliens
     {
       get
       {
-        throw new NotImplementedException();
+        return true;
       }
 
       set
@@ -70,7 +70,7 @@ namespace BlackHole.Aliens
     {
       get
       {
-        throw new NotImplementedException();
+        return "forest";
       }
 
       set
@@ -83,7 +83,7 @@ namespace BlackHole.Aliens
     {
       get
       {
-        throw new NotImplementedException();
+        return true;
       }
 
       set
@@ -96,7 +96,7 @@ namespace BlackHole.Aliens
     {
       get
       {
-        throw new NotImplementedException();
+        return "ewokese";
       }
 
       set
@@ -109,7 +109,7 @@ namespace BlackHole.Aliens
     {
       get
       {
-        throw new NotImplementedException();
+        return 60;
       }
 
       set
@@ -122,7 +122,7 @@ namespace BlackHole.Aliens
     {
       get
       {
-        throw new NotImplementedException();
+        return "high jump";
       }
 
       set
@@ -135,7 +135,7 @@ namespace BlackHole.Aliens
     {
       get
       {
-        throw new NotImplementedException();
+        return "sticks";
       }
 
       set

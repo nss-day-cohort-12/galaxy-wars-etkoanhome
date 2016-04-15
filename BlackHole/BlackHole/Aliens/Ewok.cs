@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GalaxyWars
+namespace BlackHole.Aliens
 {
-    class Program
+  class Ewok : Alien
+  {
+    public Ewok()
     {
-        static void Main(string[] args)
-        {
-        }
+      this.goal = "Religion";
     }
+  }
 }

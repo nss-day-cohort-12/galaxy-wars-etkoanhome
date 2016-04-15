@@ -43,12 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BlackHole.cs" />
+    <Compile Include="Planets\Endor.cs" />
+    <Compile Include="Planets\Hoth.cs" />
+    <Compile Include="Planets\Planet.cs" />
+    <Compile Include="Planets\Tatooine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Aliens\Alien.cs" />
+    <Compile Include="Aliens\Ewok.cs" />
+    <Compile Include="Aliens\Wampa.cs" />
+    <Compile Include="Aliens\Wookiee.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -8,5 +8,10 @@ namespace BlackHole.Aliens
 {
   class Wampa : Alien
   {
+    public Wampa()
+    {
+      this.goal = "Science";
+      this.species = "Wampa";
+    }
   }
 }

@@ -8,5 +8,10 @@ namespace BlackHole.Aliens
 {
   class Wookiee : Alien
   {
+    public Wookiee()
+    {
+      this.goal = "Warfare";
+      this.species = "Wookiee";
+    }
   }
 }

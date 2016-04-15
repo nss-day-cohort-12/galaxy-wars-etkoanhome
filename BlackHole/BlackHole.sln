@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalaxyWars", "GalaxyWars\GalaxyWars.csproj", "{8F7DA256-859F-4254-BF36-DE5327304541}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackHole", "GalaxyWars\BlackHole.csproj", "{8F7DA256-859F-4254-BF36-DE5327304541}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

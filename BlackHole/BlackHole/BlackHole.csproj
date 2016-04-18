@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="BlackHole.cs" />
     <Compile Include="Interfaces\IAlien.cs" />
+    <Compile Include="Interfaces\IReligious.cs" />
+    <Compile Include="Interfaces\IScience.cs" />
+    <Compile Include="Interfaces\IWarfare.cs" />
     <Compile Include="Planets\Endor.cs" />
     <Compile Include="Planets\Hoth.cs" />
     <Compile Include="Planets\Planet.cs" />

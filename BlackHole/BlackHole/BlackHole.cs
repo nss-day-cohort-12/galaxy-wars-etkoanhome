@@ -21,6 +21,9 @@ namespace BlackHole
       Wookiee wookiee = new Wookiee();
       Console.WriteLine(wookiee.weapon);
 
+      Wampa wampa = new Wampa();
+      Console.WriteLine(wampa.mindWeapon);
+
       Console.ReadLine();
     }
     }

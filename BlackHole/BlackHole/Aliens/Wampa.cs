@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlackHole.Aliens
 {
-  class Wampa : Alien, IAlien
+  class Wampa : Alien, IAlien, IScience
   {
     public Wampa()
     {
@@ -92,7 +92,20 @@ namespace BlackHole.Aliens
       }
     }
 
-    public string language
+        public string jetpack
+        {
+            get
+            {
+                return "JP1000";
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public string language
     {
       get
       {
@@ -117,8 +130,20 @@ namespace BlackHole.Aliens
         throw new NotImplementedException();
       }
     }
+        public string mindWeapon
+        {
+            get
+            {
+                return "mind bullets";
+            }
 
-    public string specialPower
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public string specialPower
     {
       get
       {

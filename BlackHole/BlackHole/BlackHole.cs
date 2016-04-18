@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BlackHole.Aliens;
 using BlackHole.Planets;
+using BlackHole.Spacecrafts;
 
 namespace BlackHole
 {
@@ -12,19 +13,21 @@ namespace BlackHole
     {
         static void Main(string[] args)
         {
-      Ewok ewok = new Ewok();
-      Console.WriteLine(ewok.goal);
-      Console.WriteLine(ewok.diet);
-      Console.WriteLine(ewok.fur);
+          Ewok ewok = new Ewok();
+            Console.WriteLine(ewok.goal);
+            Console.WriteLine(ewok.diet);
+            Console.WriteLine(ewok.fur);
      
 
-      Wookiee wookiee = new Wookiee();
-      Console.WriteLine(wookiee.weapon);
+          Wookiee wookiee = new Wookiee();
+            Console.WriteLine(wookiee.weapon);
 
-      Wampa wampa = new Wampa();
-      Console.WriteLine(wampa.mindWeapon);
+          Wampa wampa = new Wampa();
+            Console.WriteLine(wampa.mindWeapon);
 
-      Console.ReadLine();
+          Falcon falcon = new Falcon();
+            Console.WriteLine(falcon.CalculateSpeed());
+          Console.ReadLine();
     }
     }
 }

@@ -57,6 +57,10 @@
     <Compile Include="Aliens\Ewok.cs" />
     <Compile Include="Aliens\Wampa.cs" />
     <Compile Include="Aliens\Wookiee.cs" />
+    <Compile Include="Spacecrafts\Falcon.cs" />
+    <Compile Include="Spacecrafts\Spacecraft.cs" />
+    <Compile Include="Spacecrafts\Speeder.cs" />
+    <Compile Include="Spacecrafts\Transporter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

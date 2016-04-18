@@ -27,6 +27,12 @@ namespace BlackHole
 
           Falcon falcon = new Falcon();
             Console.WriteLine(falcon.CalculateSpeed());
+
+          Speeder speeder = new Speeder();
+            Console.WriteLine(speeder.avgSpeed);
+
+          Transporter transporter = new Transporter();
+            Console.WriteLine(transporter.avgSpeed);
           Console.ReadLine();
     }
     }

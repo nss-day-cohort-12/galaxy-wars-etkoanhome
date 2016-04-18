@@ -8,5 +8,12 @@ namespace BlackHole.Spacecrafts
 {
     class Speeder : Spacecraft
     {
+        public Speeder()
+        {
+            this.craftName = "Speeder";
+            this.avgSpeed = 180;
+            this.numOfSeats = 2;
+            this.lightSpeed = false;
+        }
     }
 }

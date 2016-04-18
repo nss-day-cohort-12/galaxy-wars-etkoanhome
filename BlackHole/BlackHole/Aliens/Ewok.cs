@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlackHole.Aliens
 {
-  class Ewok : Alien, IAlien
+  class Ewok : Alien, IAlien, IReligious
   {
     public Ewok()
     {
@@ -27,7 +27,20 @@ namespace BlackHole.Aliens
       }
     }
 
-    public bool canSwim
+        public string book
+        {
+            get
+            {
+                return "A Smarter Way to Learn JavaScript";
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public bool canSwim
     {
       get
       {
@@ -118,7 +131,20 @@ namespace BlackHole.Aliens
       }
     }
 
-    public string specialPower
+        public string reincarnation
+        {
+            get
+            {
+                return "returns as teddy bear";
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public string specialPower
     {
       get
       {

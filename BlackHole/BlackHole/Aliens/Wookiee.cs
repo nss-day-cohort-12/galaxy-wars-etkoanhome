@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlackHole.Aliens
 {
-  class Wookiee : Alien, IAlien
+  class Wookiee : Alien, IAlien, IWarfare
   {
     public Wookiee()
     {
@@ -118,7 +118,33 @@ namespace BlackHole.Aliens
       }
     }
 
-    public string specialPower
+        public string martialArt
+        {
+            get
+            {
+                return "Kung Fu";
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public string motivation
+        {
+            get
+            {
+                return "revenge";
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public string specialPower
     {
       get
       {

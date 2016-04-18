@@ -27,13 +27,15 @@ namespace BlackHole
 
           Falcon falcon = new Falcon();
             Console.WriteLine(falcon.CalculateSpeed());
+          falcon.crew.Add(wookiee);
+            Console.WriteLine("falcon crew is comprised of " + falcon.crew);
 
-          Speeder speeder = new Speeder();
+      Speeder speeder = new Speeder();
             Console.WriteLine(speeder.avgSpeed);
 
           Transporter transporter = new Transporter();
             Console.WriteLine(transporter.avgSpeed);
-          Console.ReadLine();
-    }
+            Console.ReadLine();
+        }
     }
 }

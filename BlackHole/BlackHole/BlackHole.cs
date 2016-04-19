@@ -113,36 +113,36 @@ namespace BlackHole
                         case 1:
                             religionBeatsWarfare = false;
                             warfareBeatsReligion = true;
-                            Console.WriteLine("IT WORKED CASE ONE");
+                           // Console.WriteLine("IT WORKED CASE ONE");
                             break;
                         case 2:
                             warfareBeatsScience = false;
                             scienceBeatsWarfare = true;
-                            Console.WriteLine("it worked case two");
+                           // Console.WriteLine("it worked case two");
                             break;
                         case 3:
                             scienceBeatsReligion = false;
                             religionBeatsScience = true;
-                            Console.WriteLine("it works case 3");
+                            //Console.WriteLine("it works case 3");
                             break;
                     }
                 } year++;
 
                 if (runningWampapop <= 0)
                     {
-                        Console.WriteLine("Wampa have died and it is year " + year);
+                        Console.WriteLine("Wampas died first and it is year " + year);
                     break;
                         
                     }
                     else if (runningEwokpop <= 0)
                     {
-                        Console.WriteLine("Ewoks have died and it is year " + year);
+                        Console.WriteLine("Ewoks died first and it is year " + year);
                     break;
                         
                     }
                     else if (runningWookieepop <= 0)
                     {
-                        Console.WriteLine("Wookies have died and it is year " + year);
+                        Console.WriteLine("Wookiees died first and it is year " + year);
                     break;
                        
 

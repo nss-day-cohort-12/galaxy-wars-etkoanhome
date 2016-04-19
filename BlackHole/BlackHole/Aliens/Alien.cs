@@ -38,6 +38,8 @@ namespace BlackHole.Aliens
       }
     }
 
+        public int population = 1000000;
+
 
   }
 }

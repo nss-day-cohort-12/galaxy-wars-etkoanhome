@@ -14,28 +14,28 @@ namespace BlackHole
         static void Main(string[] args)
         {
             Ewok ewok = new Ewok();
-            Console.WriteLine(ewok.goal);
-            Console.WriteLine(ewok.diet);
-            Console.WriteLine(ewok.fur);
+            Console.WriteLine("Ewoks goal is " + ewok.goal);
+          //  Console.WriteLine(ewok.diet);
+          //  Console.WriteLine(ewok.fur);
 
 
             Wookiee wookiee = new Wookiee();
-            Console.WriteLine(wookiee.weapon);
+            Console.WriteLine("Wookiees use " + wookiee.weapon);
 
             Wampa wampa = new Wampa();
-            Console.WriteLine(wampa.mindWeapon);
+            Console.WriteLine("Wampas have special weapons -- " + wampa.mindWeapon);
 
             Falcon falcon = new Falcon();
-            Console.WriteLine(falcon.CalculateSpeed());
+            Console.WriteLine("The max speed of a Falcon is " + falcon.CalculateSpeed());
             falcon.crew.Add(wookiee);
-            Console.WriteLine("falcon crew is comprised of " + falcon.crew);
+           // Console.WriteLine("falcon crew is comprised of " + falcon.crew);
 
             Speeder speeder = new Speeder();
-            Console.WriteLine(speeder.avgSpeed);
+            Console.WriteLine("The average speed of a Speeder is " + speeder.avgSpeed);
 
             Transporter transporter = new Transporter();
-            Console.WriteLine(transporter.avgSpeed);
-            Console.WriteLine(ewok.population);
+            //Console.WriteLine(transporter.avgSpeed);
+            //Console.WriteLine(ewok.population);
             //Console.ReadLine();
 
             bool scienceBeatsReligion = true;
